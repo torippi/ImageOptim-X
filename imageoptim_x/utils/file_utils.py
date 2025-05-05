@@ -28,7 +28,7 @@ def find_raw_files(source_dir, extensions=None):
     list: 見つかったRAWファイルのパスのリスト
     """
     if extensions is None:
-        extensions = ['.dng']
+        extensions = ['.dng','DNG']
     
     files = []
     for ext in extensions:

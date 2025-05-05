@@ -46,6 +46,9 @@ raw_files/**/*.raw
 raw_files/**/*.CR2
 raw_files/**/*.NEF
 raw_files/**/*.ARW
+optimized_files/**/*.jpg
+optimized_files/**/*.jpeg
+optimized_files/**/*.png
 
 # テスト用画像フォルダ (編集元ファイル)
 original_images/**/*.jpg
