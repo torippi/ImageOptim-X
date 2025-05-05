@@ -1,0 +1,99 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+poetry.lock
+pyproject.toml
+
+# Docker関連
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# 画像ファイル関連 (選択的に無視する場合のために)
+# 通常は画像ファイルは追跡するが、特定のフォルダ内のものは除外する
+# RAW/DNGファイル
+raw_files/**/*.dng
+raw_files/**/*.raw
+raw_files/**/*.CR2
+raw_files/**/*.NEF
+raw_files/**/*.ARW
+
+# テスト用画像フォルダ (編集元ファイル)
+original_images/**/*.jpg
+original_images/**/*.jpeg
+original_images/**/*.png
+
+# 一時的な大きなファイル
+temp_images/**/*.jpg
+temp_images/**/*.jpeg
+temp_images/**/*.png
+
+# キャッシュファイル
+.DS_Store
+Thumbs.db
+.cache/
+.caches/
+.tmp/
+
+# エディタ関連
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ログファイル
+*.log
+logs/
+log/
+
+# OS関連
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# その他の一時ファイル
+.tmp/
+tmp/
+temp/
+
+# セキュリティ情報
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.ini
+credentials.json
